@@ -9,11 +9,14 @@ import static org.junit.Assert.*;
 public class SortWordsTest {
 
     SortWords sortWords;
+
+    //Creating object before running the test cases
     @Before
     public void setUp() {
         this.sortWords = new SortWords();
     }
 
+    //Destroying object after running the test cases
     @After
     public void tearDown() {
         this.sortWords = null;
