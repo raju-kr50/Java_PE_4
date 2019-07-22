@@ -36,7 +36,7 @@ public class IsHarryTest {
     @Test
     public void givenStringShouldReturnNotNull() {
         String actualResult = isHarry.stringMatcher("This is Harry?");
-        assertNotNull( actualResult);
+        assertNotNull(actualResult);
     }
 
 }
